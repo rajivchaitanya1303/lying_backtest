@@ -1,0 +1,4 @@
+model,basel,kupiec,independence,cond_coverage,kupiec_and_cc,stepdown,n_windows,kupiec_fail_few,kupiec_fail_many
+"GARCH(1,1)-t",0.7957,0.7957,0.9677,0.957,0.7742,1.0,93,14,5
+HistSim(w=250),0.6129,0.6774,0.9032,0.8065,0.6452,1.0,93,13,17
+"LSTM(h=64,L=60)",0.7419,0.4194,0.9677,0.7957,0.4194,0.9032,93,33,21

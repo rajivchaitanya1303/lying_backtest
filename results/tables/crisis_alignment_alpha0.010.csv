@@ -1,0 +1,13 @@
+ticker,model,n_windows,a_red_crisis,b_red_noncrisis,c_nored_crisis,d_nored_noncrisis,odds_ratio,fisher_p_one_sided,fisher_p_two_sided
+EEM,"GARCH(1,1)-t",17,0,0,5,12,,1.0,1.0
+EEM,HistSim(w=250),17,1,0,4,12,inf,0.294118,0.294118
+EEM,"LSTM(h=64,L=60)",17,2,0,3,12,inf,0.073529,0.073529
+EWG,"GARCH(1,1)-t",24,0,0,6,18,,1.0,1.0
+EWG,HistSim(w=250),24,0,0,6,18,,1.0,1.0
+EWG,"LSTM(h=64,L=60)",24,3,1,3,17,17.0,0.035291,0.035291
+EWJ,"GARCH(1,1)-t",24,0,0,6,18,,1.0,1.0
+EWJ,HistSim(w=250),24,0,0,6,18,,1.0,1.0
+EWJ,"LSTM(h=64,L=60)",24,2,0,4,18,inf,0.054348,0.054348
+SPY,"GARCH(1,1)-t",28,0,0,7,21,,1.0,1.0
+SPY,HistSim(w=250),28,2,1,5,20,8.0,0.145299,0.145299
+SPY,"LSTM(h=64,L=60)",28,5,0,2,21,inf,0.000214,0.000214

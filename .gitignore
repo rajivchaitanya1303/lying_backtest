@@ -1,0 +1,66 @@
+# -------------------------------------------------------------
+# Never track from this repo
+# -------------------------------------------------------------
+
+# Old zips, mhtml, xbrl junk moved into archive/ during housekeeping
+archive/
+
+# Paper source lives on Overleaf, not in the code repo
+PAPER/
+Paper/
+paper/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.btl-venv/
+.venv/
+venv/
+env/
+
+# LaTeX build artifacts (in case any land here)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local scratch
+scratch/
+tmp/
+*.tmp
+
+# -------------------------------------------------------------
+# Keep (explicit reminder; these are NOT ignored)
+# -------------------------------------------------------------
+# results/          <- kept, includes tables/, figures/, parquet
+# data/cache/       <- kept, yfinance-cached CSVs
+# notebooks/        <- kept
+
+# Reference files that are not part of the release
+*.mhtml
+Backtest_QRD2027_revision_prompt.md
+_to_delete/
+results_*/
+logs/
